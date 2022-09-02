@@ -1,0 +1,27 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class ="container">
+                <h1>Generate a <br/><span>random password</span></h1>
+                <p>Never use an insecure password again.</p>
+                <input class="passlen" id="passlen-el" type="number" min="7" max="15" placeholder="Password length" onkeyup="validateNumber()" onclick="validateNumber()" onchange="validateNumber()" required>
+                <h4 class="error" id="inputerror"></h4>
+                
+                <div>
+                <input type = "checkbox" class="checkbox" id="symbols-el">Add Symbol</input>
+                <input type = "checkbox" class="checkbox" id="numbers-el">Add numbers</input>
+                </div>
+                
+                <h4 id="checkboxerror"></h4>
+                <button onclick ="generatePass()">Generate passwords</button>
+                <button onclick ="clearBox()" id="clear">Clear passwords</button>  
+                <div class="passcontainer">
+                    <button class="password" id="first-el" onclick="copyFn(this.id)"><strong>. . . . .</strong></button>
+                    <button class="password" id="second-el" onclick="copyFn(this.id)"><strong>. . . . .</strong></button>    
+                </div>
+        </div>   
+    <script src="index.js"></script>
+    </body>
+</html>

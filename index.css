@@ -1,0 +1,102 @@
+body {
+    background-color:#1C1C1C;
+    margin: 0px;
+    color:white;
+}
+
+.container{
+    width: 400px;
+    height: 460px;
+    margin: 20px auto;
+    background: #1F2937;
+    border: 5px solid white;
+    border-radius: 20px ; 
+    padding-right: 40px;
+}
+
+h1{
+   font-family: Inter,karla;
+   font-size: 30px;
+    line-height: 30px;
+    letter-spacing: -0.015em;
+    margin:60px 0px 0px 40px;
+    text-shadow: 0 0 2px black; 
+}
+
+span{ 
+   color:#4ADF86 ;
+   text-shadow: 0 0 2px black; 
+}
+
+p{
+    color:whitesmoke;
+    font-size:15px;
+    text-align: center;
+    margin-right: 50px ;
+    margin-top: 10px;     
+}
+
+#clear{
+    background-color:darkred; 
+}
+
+button{
+    background-color:#4ADF86;
+    border:none;
+    padding:10px;
+    margin-left: 40px;
+    color:whitesmoke;
+    text-shadow: 0 0 2px black;
+    border-radius:6px;
+    margin-top: 10px;
+}
+
+.passcontainer{
+    border-top:1px solid grey;
+    margin: 25px 0px 0px 30px;
+    display: flex;
+}
+
+.password {
+    color:#4ADF86;
+    border-radius:6px;  
+    padding-top:7px;  
+    background-color: #273549;
+    border:1px solid white; 
+    width:165px;
+    height:35px;
+    margin: 25px auto;
+    text-align:center;
+    font-size:13px;
+    font-weight:bold; 
+}
+
+.passlen{
+    margin-left: 40px;
+    margin-top:10px;
+    width: 150px;
+    color:black;
+    font-size:14px;
+    padding:6px;
+    border:none; 
+    border-radius:6px;
+    opacity:90%; 
+    color: grey;
+}
+
+.checkbox{
+   margin:8px 10px 0px 40px; 
+}
+
+h4{
+    margin-left:40px;
+    margin-bottom: 0px;
+    margin-top:8px; 
+    margin-bottom:5px; 
+    font-size:12px;
+    height: 10px;
+    width: 400px; 
+    color:lightcoral;
+}
+
+
